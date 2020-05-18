@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JSP-IP:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JSP_IP_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JSP-IP/web/Web" />
+    </root>
+  </artifact>
+</component>
