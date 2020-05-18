@@ -11,7 +11,7 @@
     <title>Home Page</title>
 </head>
 <body>
-Hello World<br>
+Hello World~~~~<br>
 <script type="text/javascript"src="ckeditor/ckeditor.js"></script>
 <form method="post" action="get.jsp">
     <textarea name="editor1" id="editor1" rows="10" cols="80">
