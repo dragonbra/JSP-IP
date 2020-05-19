@@ -62,8 +62,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#" class="	"> 登录</a></li>/
-                            <li><a href="#" class=""> 注册</a></li>
+                            <li><a href="login.jsp" class="	"> 登录</a></li>/
+                            <li><a href="register.jsp" class=""> 注册</a></li>
                         </ul>
                     </div>
                 </div>
