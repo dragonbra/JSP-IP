@@ -120,7 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <span class="icon "></span>
             <input input type="text" name="CAPTCHA">
             <img id="verify">
-            <input  type="button" value="看不清? 换一张" id="btn">
+            <input type="button" value="看不清? 换一张" id="btn">
         </div>
 
         <div class="login-button-box">

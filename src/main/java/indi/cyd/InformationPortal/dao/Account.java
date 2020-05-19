@@ -6,7 +6,7 @@ public class Account {
     private String password; //密码
     private String email; //用户邮箱
     private int permission; //权限 零为管理员，非零为非管理员
-    public Account(String name,String password,long id,String email,int permission) {
+    public Account(String name,long id,String password,int permission,String email) {
         this.email = email;
         this.id = id;
         this.name = name;

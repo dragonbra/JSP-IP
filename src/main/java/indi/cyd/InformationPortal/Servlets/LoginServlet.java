@@ -28,18 +28,19 @@ public class LoginServlet extends HttpServlet {
         account=request.getParameter("Account");
         pwd=request.getParameter("Password");
         captcha=request.getParameter("CAPTCHA");
-        check=session==null?null:(String)session.getAttribute("CheckCode");
-        if(hasNull(account,pwd,captcha,check)){
+        check = session==null ? null:(String)session.getAttribute("CheckCode");
+
+        if(hasNull(account,pwd,captcha,check)) {
             request.setAttribute("message","参数不完整");
         } else if(!captcha.equalsIgnoreCase(check)){
             request.setAttribute("verifyerror","验证码错误");
         } else if(!isValid(account,pwd)){
             request.setAttribute("error","密码错误或用户名错误");
-        }else {
+        } else {
             success(request,response,Operation.getAccount(account));
             return;
         }
-       //     out.print("<script>alert('"+error+"'); window.location='index.jsp' </script>");
+       //out.print("<script>alert('"+error+"'); window.location='index.jsp' </script>");
         request.getRequestDispatcher("/login.jsp").forward(request,response);
     }
     //检查是否有null

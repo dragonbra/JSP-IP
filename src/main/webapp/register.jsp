@@ -145,7 +145,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <span class="icon "></span>
             <input input type="text" name="CAPTCHA">
             <img id="verify">
-            <input  type="button" value="看不清? 换一张" id="btn">
+            <input type="button" value="看不清? 换一张" id="btn">
         </div>
 
         <div class="login-button-box">
@@ -194,5 +194,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }
     %>
 </span>
+<script type="text/javascript">
+
+    document.getElementById("btn").onclick = function () {
+        // 获取img元素
+        // 为了让浏览器发送请求到servlet, 所以一定要改变src
+        changeImg();
+    };
+
+    function initBody() {
+        changeImg();
+    }
+
+    function changeImg() {
+        document.getElementById("verify").src =
+            "./CaptchaServlet?time=" + new Date().getTime();
+    }
+</script>
 </body>
 </html>

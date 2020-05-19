@@ -21,7 +21,7 @@ public class RegisterServlet extends HttpServlet {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         HttpSession session=request.getSession(false);
-        PrintWriter out=response.getWriter();
+        //PrintWriter out=response.getWriter();
 
         String account,email,pwd,captcha,check,error=null;
 
@@ -30,19 +30,17 @@ public class RegisterServlet extends HttpServlet {
         pwd=request.getParameter("Password");
         captcha=request.getParameter("CAPTCHA");
         check=session==null?null:(String)session.getAttribute("CheckCode");
+
         synchronized (this) {
             if (hasNull(account, pwd, captcha, check)){
                 request.setAttribute("message","参数不完整");
             } else if (!captcha.equalsIgnoreCase(check)){
                 request.setAttribute("verifyerror","验证码错误");
             } else {
-                if (email!=null&&!email.equals("")&& !VerificationUtil.isEmail(email))
-                {
+                if (email!=null&&!email.equals("")&& !VerificationUtil.isEmail(email)) {
                     System.out.println(email);
                     request.setAttribute("wrongemail","非法邮箱地址");
-                }
-                else
-                {
+                } else {
                     try {
                         if (addUser(account,email,pwd,request)){
                             //注册成功
