@@ -1,4 +1,4 @@
-<%--
+<%@ page import="indi.cyd.InformationPortal.dao.Account" %><%--
   Created by IntelliJ IDEA.
   User: cyd
   Date: 2020/5/18
@@ -36,6 +36,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
 </head>
 <body>
+<script src="js/ajax1.js"></script>
+<script src="js/jquery-3.1.1.js"></script>
 <div class="header" id="home">
     <div class="content white">
         <nav class="navbar navbar-default" role="navigation">
@@ -70,16 +72,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a href="login.jsp" class="	"> 登录</a></li>/
                             <li><a href="register.jsp" class=""> 注册</a></li>
 
-                            <!--
+
                             <%
                             } else {
-                                // ccount acc = (Account) request.getSession().getAttribute("Account");
+                                 Account acc = (Account) request.getSession().getAttribute("Account");
                             %>
 
-                            <li><a> </% acc.getname() %> </a></li>
+                            <li><a> <%=acc.getName()%> </a></li>
                             <li><a href="manage.jsp" class="	">账户 </a></li>/
                             <li><a href="" onclick="logout()" class=""> 注销</a></li>
-                            -->
+
                             <%
                                 }
                             %>
@@ -281,7 +283,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <h3 class="tittle bottom"><i class="glyphicon glyphicon-globe"></i>通知公告</h3>
             <div class="grid">
                 <div class="col-md-4 m-b">
-                    <a href="exp_envir.jsp"> <figure class="effect-layla"></a>
+                    <a href="exp_envir.jsp">
+                        </figure class="effect-layla">
+                    </a>
                     <img src="images/timg.jpg" alt="img25"/>
                     <figcaption>
                         <h4>阿巴阿巴<span>阿巴阿巴</span></h4>

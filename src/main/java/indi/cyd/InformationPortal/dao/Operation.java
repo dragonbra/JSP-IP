@@ -114,7 +114,7 @@ public class Operation {
             while (rs.next()) {
                 id = rs.getLong("id");
                 password = rs.getString("password");
-                permission = Integer.valueOf(rs.getString("permission"));
+                permission = Integer.valueOf(rs.getString("permissions"));
                 email = rs.getString("email");
             }
         } catch (SQLException e) {

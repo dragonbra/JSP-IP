@@ -69,7 +69,7 @@ public class RegisterServlet extends HttpServlet {
         }
     }
     private boolean addUser(String acc,String email,String pwd ,HttpServletRequest request){
-        Account ac=new Account(acc,System.currentTimeMillis(),pwd,0,email);
+        Account ac=new Account(acc,System.currentTimeMillis(),pwd,1,email);
         int res=Operation.insertAccount(ac);
         if(res==1)request.getSession().setAttribute("Account",ac);
         return res==1;
