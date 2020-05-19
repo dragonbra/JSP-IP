@@ -62,8 +62,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                     <div class="social-icons">
                         <ul>
+                            <%
+                                request.setCharacterEncoding("UTF-8");
+                                if (request.getSession(true).getAttribute("Account") == null) {
+                            %>
+
                             <li><a href="login.jsp" class="	"> 登录</a></li>/
                             <li><a href="register.jsp" class=""> 注册</a></li>
+
+                            <!--
+                            <%
+                            } else {
+                                // ccount acc = (Account) request.getSession().getAttribute("Account");
+                            %>
+
+                            <li><a> </% acc.getname() %> </a></li>
+                            <li><a href="manage.jsp" class="	">账户 </a></li>/
+                            <li><a href="" onclick="logout()" class=""> 注销</a></li>
+                            -->
+                            <%
+                                }
+                            %>
                         </ul>
                     </div>
                 </div>
