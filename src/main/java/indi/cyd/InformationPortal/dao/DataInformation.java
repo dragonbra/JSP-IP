@@ -1,7 +1,7 @@
 package indi.cyd.InformationPortal.dao;
 
-import indi.cyd.InformationPortal.Utils.ConfigProvider;
-import org.dom4j.Element;
+//import indi.cyd.InformationPortal.Utils.ConfigProvider;
+//import org.dom4j.Element;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -49,12 +49,12 @@ public class DataInformation {
     }
     private static Connection createConnection() throws Exception {
         String DB_URL,USER,PASS;
-        Element sql= ConfigProvider.getConfig("SQL");
+        //Element sql= ConfigProvider.getConfig("SQL");
         // 注册 JDBC 驱动
-        Class.forName(sql.elementText("JDBC_DRIVER"));
-        DB_URL=sql.elementText("url");
-        USER=sql.elementText("username");
-        PASS=sql.elementText("password");
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        DB_URL="jdbc:mysql://localhost:3306/cyd?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true";
+        USER="root";
+        PASS="123456";
         return DriverManager.getConnection(DB_URL,USER,PASS);
     }
 

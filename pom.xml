@@ -45,13 +45,13 @@
             <artifactId>commons-io</artifactId>
             <version>1.4</version>
         </dependency>
-        <!--
-        <dependency>
+
+        <!--<dependency>
           <groupId>com.googlecode.json-</groupId>
           <artifactId>json-simple</artifactId>
           <version>1.1</version>
-        </dependency>
-        -->
+        </dependency>-->
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
@@ -59,11 +59,11 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/org.springframework.web -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework</groupId>
             <artifactId>org.springframework.web</artifactId>
             <version>3.2.2.RELEASE</version>
-        </dependency>
+        </dependency>-->
 
 
         <dependency>
@@ -76,11 +76,11 @@
             <artifactId>ivy</artifactId>
             <version>2.4.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>1.6.1</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>junit</groupId>
@@ -89,17 +89,9 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform -->
-        <dependency>
-            <groupId>org.nd4j</groupId>
-            <artifactId>nd4j-native-platform</artifactId>
-            <version>1.0.0-beta3</version>
-        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core -->
-        <dependency>
-            <groupId>org.deeplearning4j</groupId>
-            <artifactId>deeplearning4j-core</artifactId>
-            <version>1.0.0-beta3</version>
-        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
         <dependency>
             <groupId>org.slf4j</groupId>
