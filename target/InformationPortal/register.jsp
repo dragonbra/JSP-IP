@@ -1,4 +1,4 @@
-<%--
+<%@ page import="indi.cyd.InformationPortal.dao.Account" %><%--
   Created by IntelliJ IDEA.
   User: cyd
   Date: 2020/5/19
@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.jsp">首页</a></li>
+                        <li><a href="index.jsp">首页</a></li>
                         <li><a href="exp_teach.jsp">实验教学</a></li>
                         <li><a href="man_mode.jsp">管理模式</a></li>
                         <li><a href="exp_envir.jsp">设备环境</a></li>
@@ -68,8 +68,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                     <div class="social-icons">
                         <ul>
+                            <%
+                                request.setCharacterEncoding("UTF-8");
+                                if (request.getSession(true).getAttribute("Account") == null) {
+                            %>
+
                             <li><a href="login.jsp" class="	"> 登录</a></li>/
                             <li><a href="register.jsp" class=""> 注册</a></li>
+
+
+                            <%
+                            } else {
+                                Account acc = (Account) request.getSession().getAttribute("Account");
+                            %>
+
+                            <li><a> <%=acc.getName()%> </a></li>
+                            <li><a href="manage.jsp" class="	">账户 </a></li>/
+                            <li><a href="" onclick="logout()" class=""> 注销</a></li>
+
+                            <%
+                                }
+                            %>
                         </ul>
                     </div>
                 </div>
