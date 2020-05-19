@@ -84,17 +84,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <h3>管理模式</h3>
         <div class="contact-bottom">
-            <!--		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.958900464012!2d36.23097800000001!3d49.993379999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f009ab9f07%3A0xa21e10f67fa29ce!2sGeorgia+Education+Center!5e0!3m2!1sen!2sin!4v1436943860334" frameborder="0" style="border:0" allowfullscreen></iframe>
-            -->	</div>
+            	<iframe
+                        src="https://map.baidu.com/poi/%E6%B2%B3%E6%B5%B7%E5%A4%A7%E5%AD%A6(%E6%B1%9F%E5%AE%81%E6%A0%A1%E5%8C%BA)/@13224056.54779473,3731682.359528433,13.3z?uid=a404432faa3c773e3be4a6b5&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
         <div class="col-md-4 contact-left">
             <h4>地址</h4>
-            <p>阿巴阿巴
-                <span>阿巴阿巴</span></p>
+            <p>
+                江苏省南京市江宁区佛城西路8号
+                <span>No. 8, Focheng West Road, Jiangning District, Nanjing City, Jiangsu Province</span></p>
             <ul>
-                <li>Free Phone :+1 078 4589 2456</li>
-                <li>Telephone :+1 078 4589 2456</li>
-                <li>Fax :+1 078 4589 2456</li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li>联系方式：+86 17671747126</li>
+                <li>微信：weitommy</li>
+                <li>传真：+86 078 4589 2456</li>
+                <li><a href="mailto:tommy514@foxmail.com">tommy514@foxmail.com</a></li>
             </ul>
         </div>
         <div class="col-md-8 contact-left">
