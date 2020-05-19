@@ -54,10 +54,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li><a href="index.jsp">首页</a></li>
-                        <li><a href="typography.html">实验教学</a></li>
-                        <li><a href="contact.html">管理模式</a></li>
-                        <li><a href="single.html">设备环境</a></li>
-                        <li><a href="leadership.html">成果展示</a></li>
+                        <li><a href="exp_teach.jsp">实验教学</a></li>
+                        <li><a href="man_mode.jsp">管理模式</a></li>
+                        <li><a href="exp_envir.jsp">设备环境</a></li>
+                        <li><a href="award_show.jsp">成果展示</a></li>
                         <li class="active"><a href="exp_team.jsp">实验队伍</a></li>
                     </ul>
                     <div class="social-icons">
@@ -117,16 +117,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="course_demo1">
                                 <ul id="flexiselDemo1">
                                     <li>
-                                        <a href="single.html"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="single.html"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="single.html"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="single.html"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -159,127 +159,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </script>
                             <script type="text/javascript" src="js/jquery.flexisel.js"></script>
                         </div>
-                        <a class="more" href="single.html">更多</a>
+                        <a class="more" href="exp_envir.jsp">更多</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mag-inner-right">
-                <div class="connect">
-                    <h4 class="side" ><i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i>校际交流</h4>
-                    <ul class="stay">
-                        <li class="c5-element-facebook"><a href="#"><span class="icon"></span><h5>阿巴阿巴</h5><span class="text">阿巴阿巴</span></a></li>
-                        <li class="c5-element-twitter"><a href="#"><span class="icon1"></span><h5>阿巴阿巴</h5><span class="text">阿巴阿巴</span></a></li>
-                        <li class="c5-element-gg"><a href="#"><span class="icon2"></span><h5>阿巴阿巴</h5><span class="text">阿巴阿巴</span></a></li>
-                        <li class="c5-element-dribble"><a href="#"><span class="icon3"></span><h5>阿巴阿巴</h5><span class="text">阿巴阿巴</span></a></li>
-
-                    </ul>
-                </div>
-                <div class="modern">
-                    <h4 class="side"><i class="glyphicon glyphicon-user" aria-hidden="true"></i> 实验队伍</h4>
-                    <div id="example1">
-                        <div id="owl-demo" class="owl-carousel text-center">
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                            <div class="item">
-
-                                <img class="img-responsive lot" src="images/timg.jpg" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- requried-jsfiles-for owl -->
-                    <script src="js/owl.carousel.js"></script>
-                    <script>
-                        $(document).ready(function() {
-                            $("#owl-demo").owlCarousel({
-                                items :1,
-                                lazyLoad : true,
-                                autoPlay : false,
-                                navigation : true,
-                                navigationText :  true,
-                                pagination : false,
-                                responsiveBreakpoints: {
-                                    portrait: {
-                                        changePoint:480,
-                                        visibleItems: 2
-                                    },
-                                    landscape: {
-                                        changePoint:640,
-                                        visibleItems: 2
-                                    },
-                                    tablet: {
-                                        changePoint:768,
-                                        visibleItems: 3
-                                    }
-                                }
-                            });
-                        });
-                    </script>
-                    <!-- //requried-jsfiles-for owl -->
-                </div>
-                <h4 class="side"><i class="glyphicon glyphicon-file" aria-hidden="true"></i>实验教学</h4>
-                <div class="edit-pics">
-                    <div class="editor-pics">
-                        <div class="col-md-3 item-pic">
-                            <img src="images/timg.jpg" class="img-responsive" alt=""/>
-
-                        </div>
-                        <div class="col-md-9 item-details">
-                            <h5 class="inner two"><a href="single.html">阿巴阿巴</a></h5>
-                            <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>日期阿巴 <a href="#"><i class="glyphicon glyphicon-comment"></i>浏览阿巴 </a></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="editor-pics">
-                        <div class="col-md-3 item-pic">
-                            <img src="images/timg.jpg" class="img-responsive" alt=""/>
-
-                        </div>
-                        <div class="col-md-9 item-details">
-                            <h5 class="inner two"><a href="single.html">阿巴阿巴</a></h5>
-                            <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>N日期阿巴<a href="#"><i class="glyphicon glyphicon-comment"></i>浏览阿巴 </a></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="editor-pics">
-                        <div class="col-md-3 item-pic">
-                            <img src="images/timg.jpg" class="img-responsive" alt=""/>
-
-                        </div>
-                        <div class="col-md-9 item-details">
-                            <h5 class="inner two"><a href="single.html">阿巴阿巴.</a></h5>
-                            <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>日期阿巴 <a href="#"><i class="glyphicon glyphicon-comment"></i>浏览阿巴 </a></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <!--//edit-pics-->
-            </div>
+            <jsp:include page="right_navigator.jsp"></jsp:include>
             <div class="clearfix"> </div>
         </div>
     </div>

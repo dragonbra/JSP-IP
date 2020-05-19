@@ -10,7 +10,7 @@
 <head>
     <title>Title</title>
 </head>
-<body>
+<body><jsp:include page="right_navigator.jsp"></jsp:include>
 <%
     request.setCharacterEncoding("UTF-8");
     out.println(request.getParameter("editor1"));
