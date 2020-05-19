@@ -93,7 +93,7 @@
 
             </div>
             <div class="col-md-9 item-details">
-                <h5 class="inner two"><a href="exp_envir.jsp">阿巴阿巴</a></h5>
+                <h5 class="inner two"><a href="exp_envir.jsp">123123123</a></h5>
                 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>日期阿巴 <a href="#"><i class="glyphicon glyphicon-comment"></i>浏览阿巴 </a></div>
             </div>
             <div class="clearfix"></div>

@@ -2,14 +2,18 @@
   Created by IntelliJ IDEA.
   User: cyd
   Date: 2020/5/19
-  Time: 14:25
+  Time: 17:23
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE HTML>
-<html>
+<%@ page isELIgnored="false" %>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+%>
+<html lang="en">
 <head>
-    <title>成果展示</title>
+    <title>登录</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Politics Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -19,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- Custom Theme files -->
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.min.js"> </script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
@@ -35,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     </script>
 </head>
-<body>
+<body onload="initBody()">
 <div class="header" id="home">
     <div class="content white">
         <nav class="navbar navbar-default" role="navigation">
@@ -53,11 +58,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.jsp">首页</a></li>
+                        <li class="active"><a href="index.jsp">首页</a></li>
                         <li><a href="exp_teach.jsp">实验教学</a></li>
                         <li><a href="man_mode.jsp">管理模式</a></li>
                         <li><a href="exp_envir.jsp">设备环境</a></li>
-                        <li class="active"><a href="award_show.jsp">成果展示</a></li>
+                        <li><a href="award_show.jsp">成果展示</a></li>
                         <li><a href="exp_team.jsp">实验队伍</a></li>
                     </ul>
                     <div class="social-icons">
@@ -73,67 +78,103 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
     </div>
 </div>
-<!--/start-banner-->
 <div class="banner1">
     <div class="container">
     </div>
 </div>
-<!--//end-banner-->
-<!-- leadership -->
-<div class="leadership">
-    <div class="container">
-        <div class="leadership-grids">
-            <div class="col-md-8 leadership-grid-left">
-                <h3>成果展示</h3>
-                <div class="leadership-grid">
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
-                    </div>
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="leadership-grid">
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴 阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
-                    </div>
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴 阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="leadership-grid">
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴 阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
-                    </div>
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴k<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-            </div>
-            <jsp:include page="right_navigator.jsp"></jsp:include>
-            <div class="clearfix"> </div>
+<%
+    // 获取浏览器发送过来的cookie, 获取用户信息
+    Cookie[] cookies = request.getCookies();
+    String username = "";
+    if (cookies != null) {
+        for (Cookie cookie : cookies) {
+            if ("username".equals(cookie.getName())) {
+                username = cookie.getValue();
+            }
+        }
+    }
+%>
+
+<div id="content">
+    <div class="login-header">
+        <img src="images/logo.png">
+    </div>
+    <form action="LoginServlet" method="post">
+        <div class="login-input-box">
+            <span class="icon icon-user"></span>
+            <input  type="text" name="Account" value="<%= username%>"
+
+                    placeholder="请输入用户名"
+
+            >
         </div>
+        <div class="login-input-box">
+            <span class="icon icon-password"></span>
+
+            <input  type="password" name="Password"
+
+                    placeholder="请输入密码"
+            >
+        </div>
+        <div class="captcha" >
+            <span class="icon "></span>
+            <input input type="text" name="CAPTCHA">
+            <img id="verify">
+            <input  type="button" value="看不清? 换一张" id="btn">
+        </div>
+
+        <div class="login-button-box">
+            <button
+                    type="submit" value="登录" onclick="
+            if(Account.value===''){
+                alert('用户名不能为空');
+                return false;
+            } else if(Password.value===''){
+                alert('密码不能为空');
+                return false;
+            } else if(CAPTCHA.value===''){
+                alert('验证码不能为空');
+                return false;
+            }" >
+                登录
+            </button>
+        </div>
+    </form>
+    <div class="logon-box">
+        <a href="register.jsp">注册</a>
     </div>
 </div>
+<span style="color: red" class="mes">
+    <%
+        if(request.getAttribute("error")!=null){
+    %>
+        用户名或密码错误
+    <%
+        }
+        if(request.getAttribute("verifyerror")!=null){
+    %>
+        验证码错误
+    <%
+        }
+    %>
+</span>
+<script type="text/javascript">
 
+    document.getElementById("btn").onclick = function () {
+        // 获取img元素
+        // 为了让浏览器发送请求到servlet, 所以一定要改变src
+        changeImg();
+    };
 
-<!--//JS-->
+    function initBody() {
+        changeImg();
+    }
+
+    function changeImg() {
+        document.getElementById("verify").src =
+            "./CaptchaServlet?time=" + new Date().getTime();
+    }
+</script>
 
 </body>
 </html>
-
