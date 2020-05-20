@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page import="indi.cyd.InformationPortal.dao.Account" %><%--
   Created by IntelliJ IDEA.
   User: cyd
@@ -109,40 +110,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <a href="exp_envir.jsp"> <figure class="effect-layla"></a>
                     <img src="images/timg.jpg" alt="img25"/>
                     <figcaption>
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <a href="#">更多</a>
+                        <h4>实验教学<span>实验教学</span></h4>
+                        <form action="getrootpart.jsp" method="post" name="实验教学">
+                            <input type="hidden" value = "实验教学" name="rootpartof">
+                        </form>
                     </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
+                        <a href="getrootpart.jsp?rootpartof=实验教学" class="wd">查看文章 </a>
+                        <!--<p>阿巴阿巴</p>
+                        <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
                         <a href="exp_envir.jsp">	<img src="images/timg.jpg" alt="img25"/></a>
                         <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
+                            <h4>中心概况<span>中心概况</span></h4>
+                            <form action="getrootpart.jsp" method="post" name="中心概况">
+                                <input type="hidden" value = "中心概况" name="rootpartof">
+                            </form>
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
+                        <a href="getrootpart.jsp?rootpartof=中心概况" class="wd">查看文章 </a>
+                        <!--<p>阿巴阿巴</p>
+                        <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
                         <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
                         <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
+                            <h4>设备环境<span>设备环境</span></h4>
+                            <form action="getrootpart.jsp" method="post" name="设备环境">
+                                <input type="hidden" value = "设备环境" name="rootpartof">
+                            </form>
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp"> 更多</a>
+                        <a href="getrootpart.jsp?rootpartof=设备环境" class="wd">查看文章 </a>
+                        <!--<p>阿巴阿巴</p>
+                        <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -152,27 +161,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <a href="exp_envir.jsp"> <figure class="effect-layla"></a>
                     <img src="images/timg.jpg" alt="img25"/>
                     <figcaption>
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <a href="#">更多</a>
+                        <h4>成果展示<span>成果展示</span></h4>
+                        <form action="getrootpart.jsp" method="post" name="成果展示">
+                            <input type="hidden" value = "成果展示" name="rootpartof">
+                        </form>
                     </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
+                        <a href="getrootpart.jsp?rootpartof=成果展示" class="wd">查看文章 </a>
+                        <!--<p>阿巴阿巴</p>
+                        <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
                         <a href="exp_envir.jsp">	<img src="images/timg.jpg" alt="img25"/></a>
                         <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
+                            <h4>实验队伍<span>实验队伍</span></h4>
+                            <form action="getrootpart.jsp" method="post" name="实验队伍">
+                                <input type="hidden" value = "实验队伍" name="rootpartof">
+                            </form>
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
+                        <a href="getrootpart.jsp?rootpartof=实验队伍" class="wd">查看文章 </a>
+                        <!--<p>阿巴阿巴</p>
+                        <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
