@@ -41,6 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
 </head>
 <body onload="initBody()">
+<script src="js/ajax1.js"></script>
 <div class="header" id="home">
     <div class="content white">
         <nav class="navbar navbar-default" role="navigation">
