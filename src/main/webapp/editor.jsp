@@ -159,8 +159,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </select><br><br>
 
                         <h3>是否把文章放到首页 </h3>
-                        <input type="radio" name="toindex" value="1" checked>是
-                        <input type="radio" name="toindex" value="0">否
+                        <input type="radio" name="toindex" value="1">是
+                        <input type="radio" name="toindex" value="0" checked>否
                         <br><br>
 
                         <script>

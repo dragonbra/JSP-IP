@@ -102,14 +102,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li class="callbacks1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out;">
                         <div class="banner-info">
                             <!---<h3>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</h3>--->
-                            <img align="center" src="images/i1.jpg" width="500"/>
+                            <img align="center" src="images/i2.jpg" width="500"/>
                             <!---<p>阿巴阿巴阿巴阿巴</p>--->
                         </div>
                     </li>
                     <li class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
                         <div class="banner-info">
                             <!---<h3>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</h3>--->
-                            <img align="center" src="images/i2.jpg" width="500"/>
+                            <img align="center" src="images/i1.jpg" width="500"/>
                             <!---<p>阿巴阿巴阿巴阿巴</p>--->
                         </div>
                     </li>

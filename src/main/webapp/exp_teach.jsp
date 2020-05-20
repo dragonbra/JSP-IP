@@ -108,7 +108,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="grid">
                 <div class="col-md-4 m-b">
                     <a href="exp_envir.jsp"> <figure class="effect-layla"></a>
-                    <img src="images/timg.jpg" alt="img25"/>
+                    <img src="images/awards/bk.jpg" alt="img25"/>
                     <figcaption>
                         <h4>实验教学<span>实验教学</span></h4>
                         <form action="getrootpart.jsp" method="post" name="实验教学">
@@ -117,14 +117,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="getrootpart.jsp?rootpartof=实验教学" class="wd">查看文章 </a>
+                        <a href="getrootpart.jsp?rootpartof=实验教学" class="read">查看文章 </a>
                         <!--<p>阿巴阿巴</p>
                         <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
-                        <a href="exp_envir.jsp">	<img src="images/timg.jpg" alt="img25"/></a>
+                        <a href="exp_envir.jsp">
+                            <img src="images/awards/bk.jpg" alt="img25"/>
+                        </a>
                         <figcaption>
                             <h4>中心概况<span>中心概况</span></h4>
                             <form action="getrootpart.jsp" method="post" name="中心概况">
@@ -133,14 +135,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="getrootpart.jsp?rootpartof=中心概况" class="wd">查看文章 </a>
+                        <a href="getrootpart.jsp?rootpartof=中心概况" class="read">查看文章 </a>
                         <!--<p>阿巴阿巴</p>
                         <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
-                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
+                        <a href="exp_envir.jsp">
+                            <img src="images/awards/bk.jpg" alt="img25"/>
+                        </a>
                         <figcaption>
                             <h4>设备环境<span>设备环境</span></h4>
                             <form action="getrootpart.jsp" method="post" name="设备环境">
@@ -149,7 +153,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="getrootpart.jsp?rootpartof=设备环境" class="wd">查看文章 </a>
+                        <a href="getrootpart.jsp?rootpartof=设备环境" class="read">查看文章 </a>
                         <!--<p>阿巴阿巴</p>
                         <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
@@ -159,7 +163,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="grid">
                 <div class="col-md-4 m-b">
                     <a href="exp_envir.jsp"> <figure class="effect-layla"></a>
-                    <img src="images/timg.jpg" alt="img25"/>
+                    <img src="images/awards/bk.jpg" alt="img25"/>
                     <figcaption>
                         <h4>成果展示<span>成果展示</span></h4>
                         <form action="getrootpart.jsp" method="post" name="成果展示">
@@ -168,14 +172,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="getrootpart.jsp?rootpartof=成果展示" class="wd">查看文章 </a>
+                        <a href="getrootpart.jsp?rootpartof=成果展示" class="read">查看文章 </a>
                         <!--<p>阿巴阿巴</p>
                         <a class="read" href="exp_envir.jsp">更多</a>-->
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
-                        <a href="exp_envir.jsp">	<img src="images/timg.jpg" alt="img25"/></a>
+                        <a href="exp_envir.jsp">
+                            <img src="images/awards/bk.jpg" alt="img25"/></a>
                         <figcaption>
                             <h4>实验队伍<span>实验队伍</span></h4>
                             <form action="getrootpart.jsp" method="post" name="实验队伍">
@@ -184,65 +189,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="getrootpart.jsp?rootpartof=实验队伍" class="wd">查看文章 </a>
-                        <!--<p>阿巴阿巴</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>-->
-                    </div>
-                </div>
-                <div class="col-md-4 m-b">
-                    <figure class="effect-layla">
-                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
-                        <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        </figcaption>
-                    </figure>
-                    <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp"> 更多</a>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="grid">
-                <div class="col-md-4 m-b">
-                    <a href="exp_envir.jsp"> <figure class="effect-layla"></a>
-                    <img src="images/timg.jpg" alt="img25"/>
-                    <figcaption>
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <a href="#">更多</a>
-                    </figcaption>
-                    </figure>
-                    <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
-                    </div>
-                </div>
-                <div class="col-md-4 m-b">
-                    <figure class="effect-layla">
-                        <a href="exp_envir.jsp">	<img src="images/timg.jpg" alt="img25"/></a>
-                        <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        </figcaption>
-                    </figure>
-                    <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
-                    </div>
-                </div>
-                <div class="col-md-4 m-b">
-                    <figure class="effect-layla">
-                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
-                        <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        </figcaption>
-                    </figure>
-                    <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp"> 更多</a>
+                        <a href="getrootpart.jsp?rootpartof=实验队伍" class="read">查看文章 </a>
                     </div>
                 </div>
                 <div class="clearfix"></div>

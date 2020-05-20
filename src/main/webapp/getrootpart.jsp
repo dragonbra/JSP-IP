@@ -6,8 +6,13 @@
 <%@ page import="indi.cyd.InformationPortal.dao.Account" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<%
+    String rootpartof = request.getParameter("rootpartof");
+    //rootpartof = "实验教学";
+    List<String> partof=Operation.getPartof(rootpartof);
+%>
 <head>
-    <title>实验教学</title>
+    <title><%=rootpartof%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Politics Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -95,11 +100,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
     </div>
 </div>
-<%
-    String rootpartof = request.getParameter("rootpartof");
-    //rootpartof = "实验教学";
-    List<String> partof=Operation.getPartof(rootpartof);
-%>
 <table width="1002" align="center">
     <tr>
         <td width="100%" height="100%" class="enbed">
@@ -185,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <input type="hidden" name="jy" value="1">
                                     <span><input type="submit" value="跳转"></span>
                                 </form>
-
+                            <br><br><br>
                             </li>
                         </ul>
                     </div>
