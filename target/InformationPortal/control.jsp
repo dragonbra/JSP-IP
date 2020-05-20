@@ -160,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             ><%=res.getInfo()%></textarea>
             <br>
             <input type="hidden" name="aim" value="<%=res.getName()%>">
-            <input type="submit" class="search" value="确认修改" onclick="javascript:this.form.action='ModifyServlet?sc=0'">
+            <input type="submit" class="search" value="确认修改" onclick="javascript:this.form.action='ModifyServlet?sc=2'">
             <%
                 if (acc.getPermissions() >= 3) {
             %>

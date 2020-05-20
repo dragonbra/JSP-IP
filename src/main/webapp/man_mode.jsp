@@ -118,6 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <li>微信：weitommy</li>
                 <li>传真：+86 078 4589 2456</li>
                 <li><a href="mailto:tommy514@foxmail.com">tommy514@foxmail.com</a></li>
+                <li><a href="init.jsp">初始化</a></li>
             </ul>
         </div>
         <div class="col-md-8 contact-left">
@@ -135,6 +136,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="clearfix"> </div>
     </div>
 </div>
-
 </body>
 </html>
