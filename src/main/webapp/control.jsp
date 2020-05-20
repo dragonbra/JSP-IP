@@ -2,22 +2,16 @@
   Created by IntelliJ IDEA.
   User: cyd
   Date: 2020/5/20
-  Time: 11:40
+  Time: 13:30
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="indi.cyd.InformationPortal.dao.Account" %>
+<%@ page import="indi.cyd.InformationPortal.dao.Operation" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page isELIgnored="false" %>
-<%
-    String path = request.getContextPath();
-    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
-    String e = request.getParameter("error");
-%>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>账户管理</title>
+    <title>权限管理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Politics Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -25,9 +19,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
     <!-- Custom Theme files -->
-    <link href="css/login.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery.min.js"> </script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
@@ -44,9 +38,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     </script>
 </head>
-
-<body onload="initBody()">
-
+<body>
+<script src="js/ajax1.js"></script>
 <div class="header" id="home">
     <div class="content white">
         <nav class="navbar navbar-default" role="navigation">
@@ -103,76 +96,83 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
     </div>
 </div>
-<script src="js/ajax1.js"></script>
-
-<%
-    request.setCharacterEncoding("UTF-8");
-    if (request.getSession(true).getAttribute("Account") == null) {
-        response.sendRedirect("index.jsp");
-    } else {
-        Account acc = (Account) request.getSession().getAttribute("Account");
-%>
-
-<div id="content">
-    <div class="login-header">
-        <img src="images/logo.png">
+<div class="banner1">
+    <div class="container">
     </div>
-    <form action="ModifyServlet" method="post">
-        <div class="login-input-box">
-            <span class="icon icon-user"></span>
-            <input style="width:360px;" type="text" value="<%=acc.getName()%>" disabled="disabled" />
-        </div>
-        <div class="login-input-box">
-            <span class="icon icon-mail"></span>
-            <input style="width:360px;" type="text" name="email" value="<%=acc.getEmail()%>"
-                   placeholder="电子邮箱">
-        </div>
-        <div class="login-input-box">
-            <span class="icon icon-password"></span>
-            <input style="width:360px;" type="password" name="Password" value="<%=request.getParameter("Password")==null?"":request.getParameter("Password")%>"
-                   placeholder="密码">
-        </div>
-        <div class="login-input-box">
-            <span class="icon icon-password"></span>
-            <input style="width:360px;" type="password" placeholder="确认密码">
-        </div>
-        <textarea name="profile" placeholder="个人信息" style="border:1px solid #dcdcdc;border-radius:5px;
-                    margin: 18px;width: 360px;height: 200px;padding: 10px;resize: none;"
-                  ><%=acc.getInfo()%>
-        </textarea>
-        <input type="hidden" name="aim" value="">
-        <div class="login-button-box">
-            <button
-                    type="submit" value="登录" onclick="
-                    if(password.value!==check.value){
-                        alert('密码不一致');
-                        return false;
-                    }" >修改信息
-            </button>
-
-        </div>
-    </form>
-
 </div>
-<div style="width: 40%;align-content: center;margin-left: 40%; margin-bottom: 50px; margin-top: 50px">
-    <%
-        if (acc.getPermissions() >= 1) {
-    %>
-    <a style="color: black" href="ekeditor.jsp?gx=1" class="button">增加文章</a>
-    <%
-        }
-        if (acc.getPermissions() >= 2) {
-    %>
-    <a style="color: black" href="control.jsp" class="button">设置账户</a>
-    <%
-        }
-        if (acc.getPermissions() >= 3) {
-    %>
-    <a style="color: black" href="addpartof.jsp" class="button">设置模块</a>
-    <%
+<div id="content" style="height: auto;margin-bottom: 30px;">
+    <img src="images/timg.jpg" width="60px" style="margin-left: 170px;margin-bottom: 10px">
+    <div style="width: 80%;align-content: center;margin: auto">
+
+        <%
+            request.setCharacterEncoding("UTF-8");
+            if (request.getSession(true).getAttribute("Account") == null) {
+                response.sendRedirect("index.jsp");
+                return;
             }
-        }
-    %>
+            Account acc = (Account) request.getSession().getAttribute("Account");
+            if (acc.getPermissions() < 2) {
+        %>
+        <a style="color: black" href="index.jsp">权限不足！</a>
+        <%
+                return;
+            }
+        %>
+        <form action="control.jsp" method="get">
+            <input id="searchuser" type="text" name="acc" placeholder="请输入用户名">
+            <input class="search" type="submit"  value="查找用户" onclick="
+    if(acc.value===''){
+        alert('用户名不能为空');
+    }">
+        </form>
+        <%
+            String aim = request.getParameter("acc");
+            if (aim == null) return;
+            Account res = Operation.getAccount(aim);
+            if (acc.getPermissions() <= res.getPermissions()) {
+        %>
+        <a style="color: black" href="index.jsp">您无权修改比您权限高或与您权限相同的用户！</a>
+        <%
+                return;
+            }
+            if (res.getId() == -1) {
+        %>
+        查无此人
+        <%
+                return;
+            }
+        %>
+        <form action="" method="post">
+            <%=res.getName()%><br>
+            <br>
+            <font class="upinput">电子邮箱</font><br>
+            <input class="control-input" type="text" name="email" value="<%=res.getEmail()%>" placeholder="请输入电子邮箱">
+            <br>
+            <font class="upinput">密码</font><br>
+            <input class="control-input" type="text" name="text" value="<%=res.getPassword()%>" placeholder="请输入密码">
+            <br>
+            <font class="upinput">权限</font><br>
+            <input class="control-input" type="number" name="permission" value="<%=res.getPermissions()%>" placeholder="权限">
+            <br>
+            <font class="upinput"> 个人信息</font><br>
+            <textarea name="profile" placeholder="个人信息" style="border:1px solid #000000;border-radius:5px;
+                    margin-bottom: 15px;width: 300px;height: 200px;padding: 10px;resize: none;"
+            ><%=res.getInfo()%></textarea>
+            <br>
+            <input type="hidden" name="aim" value="<%=res.getName()%>">
+            <input type="submit" class="search" value="确认修改" onclick="javascript:this.form.action='ModifyServlet?sc=0'">
+            <%
+                if (acc.getPermissions() >= 3) {
+            %>
+            <input type="submit" class="search" value="删除账户" onclick="javascript:this.form.action='ModifyServlet?sc=1'">
+            <%
+                }
+            %>
+        </form>
+
+
+    </div>
 </div>
+
 </body>
 </html>
