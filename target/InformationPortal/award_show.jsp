@@ -106,40 +106,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <h3>成果展示</h3>
                 <div class="leadership-grid">
                     <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
+                        <img src="images/awards/i1.jpeg" alt=" " class="img-responsive" />
+                        <h4>2019-ICPC<span>沈阳站</span></h4>
+                        <p>铜奖</p>
                     </div>
                     <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="leadership-grid">
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴 阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
-                    </div>
-                    <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴 阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
+                        <img src="images/awards/i2.jpeg" alt=" " class="img-responsive" />
+                        <h4>2019-天梯赛<span>全国总决赛</span></h4>
+                        <p>团队铜奖</p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
                 <div class="leadership-grid">
                     <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴 阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
+                        <img src="images/awards/i3.jpeg" alt=" " class="img-responsive" />
+                        <h4>2019-JSCPC<span>江苏省大学生程序设计大赛</span></h4>
+                        <p>三等奖</p>
                     </div>
                     <div class="col-md-6 leader">
-                        <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                        <h4>阿巴阿巴k<span>阿巴阿巴</span></h4>
-                        <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
+                        <img src="images/awards/i4.jpeg" alt=" " class="img-responsive" />
+                        <h4>2019-蓝桥杯<span>全国总决赛</span></h4>
+                        <p>三等奖</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="leadership-grid">
+                    <div class="col-md-6 leader">
+                        <img src="images/awards/i5.jpeg" alt=" " class="img-responsive" />
+                        <h4>2019-CNCC<span>（和CCSP一起）</span></h4>
+                        <p>蹭饭成功纪念</p>
+                    </div>
+                    <div class="col-md-6 leader">
+                        <img src="images/awards/i6.jpeg" alt=" " class="img-responsive" />
+                        <h4>2019-ICPC<span>南京站</span></h4>
+                        <p>吃饭选手纪念</p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>

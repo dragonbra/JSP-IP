@@ -3047,3 +3047,8 @@ h3.title,.contact h3{
 		margin: 0 0 0.5em;
 	}
 }
+
+.show-pic{
+	width: 400px;
+	height: 300px;
+}

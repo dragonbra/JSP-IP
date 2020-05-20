@@ -169,50 +169,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="technology">
                     <h2 class="tittle"><i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i>头条新闻</h2>
                     <div class="col-md-6 tech-img">
-                        <img src="images/timg.jpg" class="img-responsive" alt=""/>
+                        <img src="images/i3.jpg" class="img-responsive" alt=""/>
                     </div>
                     <div class="col-md-6 tech-text">
                         <div class="editor-pics">
                             <div class="col-md-3 item-pic">
-                                <img src="images/timg.jpg" class="img-responsive" alt=""/>
+                                <img src="images/exp_team/sjr.jpeg" class="img-responsive" alt=""/>
 
                             </div>
                             <div class="col-md-9 item-details">
-                                <h5 class="inner two"><a href="exp_envir.jsp">阿巴阿巴</a></h5>
-                                <div class="td-post-date two">阿巴阿巴.</div>
+                                <h5 class="inner two">
+                                    <a href="getarticle.jsp?article_id=1589965845769">
+                                        祝贺我院学生在国际大学生程序设计竞赛亚洲区决赛中再获佳绩
+                                    </a>
+                                </h5>
+                                <div class="td-post-date two">2019-ICPC EC-Final</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="editor-pics">
                             <div class="col-md-3 item-pic">
-                                <img src="images/timg.jpg" class="img-responsive" alt=""/>
+                                <img src="images/exp_team/shenyang.jpeg" class="img-responsive" alt=""/>
 
                             </div>
                             <div class="col-md-9 item-details">
-                                <h5 class="inner two"><a href="exp_envir.jsp">阿巴阿巴</a></h5>
-                                <div class="td-post-date two">阿巴阿巴.</div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="editor-pics">
-                            <div class="col-md-3 item-pic">
-                                <img src="images/timg.jpg" class="img-responsive" alt=""/>
-
-                            </div>
-                            <div class="col-md-9 item-details">
-                                <h5 class="inner two"><a href="exp_envir.jsp">阿巴阿巴.</a></h5>
-                                <div class="td-post-date two">阿巴阿巴</div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="editor-pics">
-                            <div class="col-md-3 item-pic">
-                                <img src="images/timg.jpg" class="img-responsive" alt=""/>
-
-                            </div>
-                            <div class="col-md-9 item-details">
-                                <h5 class="inner two"><a href="exp_envir.jsp">阿巴阿巴.</a></h5>
-                                <div class="td-post-date two">阿巴阿巴.</div>
+                                <h5 class="inner two">
+                                    <a href="getarticle.jsp?article_id=1589971401957">
+                                        祝贺计信院学生在国际大学生程序设计竞赛亚洲区域赛（徐州站）中再获佳绩
+                                    </a>
+                                </h5>
+                                <div class="td-post-date two">2019-ICPC</div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -228,16 +214,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="course_demo1">
                             <ul id="flexiselDemo1">
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/i1.jpg" alt="" /></a>
+                                    <a href="award_show.jsp"><img src="images/awards/i1.jpeg" alt="" /></a>
                                 </li>
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/i2.jpg" alt="" /></a>
+                                    <a href="award_show.jsp"><img src="images/awards/i2.jpeg" alt="" /></a>
                                 </li>
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/i3.jpg" alt="" /></a>
+                                    <a href="award_show.jsp"><img src="images/awards/i3.jpeg" alt="" /></a>
                                 </li>
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/i2.jpg" alt="" /></a>
+                                    <a href="award_show.jsp"><img src="images/awards/i4.jpeg" alt="" /></a>
                                 </li>
                             </ul>
                         </div>

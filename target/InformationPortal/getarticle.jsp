@@ -182,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 acc = (Account) session.getAttribute("Account");
                             if (acc != null && (acc.getPermissions() >= 1)) {
                         %>
-                        <a style="color: black" id="mtitle3" href="ekeditor.jsp?gx=0"><%=article.getTitle()%>
+                        <a style="color: black" id="mtitle3" href="editor.jsp?gx=0"><%=article.getTitle()%>
                         </a>
                         <%
                             } else out.print(article.getTitle());
@@ -198,7 +198,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <br><br><br>
                     </div>
                 </div>
-                <div style="margin-left: 10%">
+                <div style="margin-left: 10%; margin-bottom: 300px">
                     <%=article.getContent()%>
                 </div>
                 <div style="height: 100px;margin: 10px"></div>

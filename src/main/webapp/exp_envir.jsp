@@ -105,10 +105,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-8 mag-innert-left">
                 <div class="banner-bottom-left-grids">
                     <div class="single-left-grid">
-                        <img src="images/timg.jpg" alt="" class="img-responsive" />
-                        <h4>阿巴阿巴.</h4>
-                        <p class="text">阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
-                        <!--				<div class="single-bottom">
+                        <h3>实验室环境</h3><br>
+                        <img src="images/people/i3.jpeg" alt="" class="img-responsive" />
+                        <!--<p class="text">现场照片</p>
+                        				<div class="single-bottom">
                                             <ul>
                                                 <li><a href="#">Parturient inspiration</a></li>
                                                 <li>November 30 2020</li>
@@ -122,42 +122,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <a href="#"><h3>设备环境</h3></a>
                     <div class="post-grids">
                         <div class="col-md-3 post-left">
-                            <a href="exp_envir.jsp"><img src="images/f1.jpg" alt=""></a>
+                            <a href="exp_envir.jsp"><img src="images/people/im3.png" width="100" alt=""></a>
                         </div>
                         <div class="col-md-9 post-right">
-                            <h4><a href="exp_envir.jsp">阿巴阿巴</a></h4>
-                            <p class="text">阿巴阿巴阿巴阿巴阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴</p>
+                            <h4><a href="exp_envir.jsp">我的桌面</a></h4>
+                            <p class="text">经过精心搭配和制造，最终呈现出来双显示器的效果～～整洁的桌面～一看就是经过非凡桌面清理大师打理后的样子～～</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
                     <div class="post-grids">
                         <div class="col-md-3 post-left">
-                            <a href="exp_envir.jsp"><img src="images/f2.jpg" alt=""></a>
+                            <a href="exp_envir.jsp"><img src="images/people/i4.jpeg" width="100" alt=""></a>
                         </div>
                         <div class="col-md-9 post-right">
 
-                            <h4><a href="exp_envir.jsp">阿巴阿巴</a></h4>
-                            <p class="text">阿巴阿巴阿巴阿巴阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴</p>	</div>
+                            <h4><a href="exp_envir.jsp">实验器材</a></h4>
+                            <p class="text">看这个示波器，那必须是杠杠的啊</p>	</div>
                         <div class="clearfix"> </div>
                     </div>
                     <div class="post-grids">
                         <div class="col-md-3 post-left">
-                            <a href="exp_envir.jsp"><img src="images/f3.jpg" alt=""></a>
+                            <a href="exp_envir.jsp"><img src="images/people/i5.jpeg" width="100" alt=""></a>
                         </div>
                         <div class="col-md-9 post-right">
 
-                            <h4><a href="exp_envir.jsp">阿巴阿巴</a></h4>
-                            <p class="text">阿巴阿巴阿巴阿巴阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴</p>	</div>
+                            <h4><a href="exp_envir.jsp">实验器材（二）</a></h4>
+                            <p class="text">看这个电路板，那连线人的手艺也必须是杠杠的啊</p>	</div>
                         <div class="clearfix"> </div>
                     </div>
                     <div class="post-grids">
                         <div class="col-md-3 post-left">
-                            <a href="exp_envir.jsp"><img src="images/f4.jpg" alt=""></a>
+                            <a href="exp_envir.jsp"><img src="images/people/i6.jpeg" width="100" alt=""></a>
                         </div>
                         <div class="col-md-9 post-right">
 
-                            <h4><a href="exp_envir.jsp">阿巴阿巴</a></h4>
-                            <p class="text">阿巴阿巴阿巴阿巴阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴 阿巴阿巴阿巴阿巴 阿巴阿巴</p>	</div>
+                            <h4><a href="exp_envir.jsp">专业书籍</a></h4>
+                            <p class="text">这本巨厚无比的砖头书……曾经在赛场上救过我们的命（吗？）</p>	</div>
                         <div class="clearfix"> </div>
                     </div>
                     <!--leave-->

@@ -105,18 +105,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-8 about-grid-left">
                 <div class="history">
                     <h3>队伍简介</h3>
-                    <img src="images/timg.jpg" alt=" " class="img-responsive" />
-                    <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
+                    <img src="images/exp_team/i1.jpeg" alt=" " class="img-responsive" />
+                    <p>
+                        <br>河海大学勤学楼4104号实验室由一群贼爱吃KFC，打LOL和偶尔CF以及参加acm比赛或补题度日的好学生。
+                        <br><br>（图为17级同学参加JSCPC获奖现场）
+                    </p>
                 </div>
                 <div class="philosophy">
                     <h3>指导教师</h3>
                     <div class="philosophy-grids">
                         <div class="col-md-4 philosophy-grid-left">
-                            <img src="images/2.jpg" alt=" " class="img-responsive" />
+                            <img src="images/people/ip1.png" alt=" " class="img-responsive" />
                         </div>
                         <div class="col-md-8 philosophy-grid-right">
-                            <h4>阿巴阿巴</h4>
-                            <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴</p>
+                            <h4>张雪洁教练</h4>
+                            <p>经常会和学生交流，指导学生参加各类竞赛。<br>是一位平易近人，为学生着想的好老师</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -125,8 +128,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <img src="images/p33.jpg" alt=" " class="img-responsive" />
                         </div>
                         <div class="col-md-8 philosophy-grid-right">
-                            <h4>阿巴阿巴</h4>
-                            <p>阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴.</p>
+                            <h4>朱云教练</h4>
+                            <p>负责组织学生训练，参加比赛。调动同学们学习与参加比赛的积极性。<br>是一位为学生着想的好老师。</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -136,16 +139,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="course_demo1">
                                 <ul id="flexiselDemo1">
                                     <li>
-                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/exp_team/hjy.jpeg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/exp_team/zyc.jpeg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/exp_team/sjr.jpeg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                        <a href="exp_envir.jsp"><img src="images/people/i9.jpeg" alt="" /></a>
                                     </li>
                                 </ul>
                             </div>

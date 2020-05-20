@@ -77,7 +77,7 @@
 
             </div>
             <div class="col-md-9 item-details">
-                <h5 class="inner two"><a href="http://jxycx.hhu.edu.cn/news/%E7%A5%9D%E8%B4%BA%E6%88%91%E9%99%A2%E5%AD%A6%E7%94%9F%E5%9C%A8%E5%9B%BD%E9%99%85%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B%E4%BA%9A%E6%B4%B2%20%E5%8C%BA%E5%86%B3%E8%B5%9B%E4%B8%AD%E5%86%8D%E8%8E%B7%E4%BD%B3%E7%BB%A9">
+                <h5 class="inner two"><a href="getarticle.jsp?article_id=1589965845769">
                     祝贺我院学生在国际大学生程序设计竞赛亚洲区决赛中再获佳绩
                 </a></h5>
                 <div class="td-post-date two">
@@ -96,7 +96,7 @@
 
             </div>
             <div class="col-md-9 item-details">
-                <h5 class="inner two"><a href="http://jxycx.hhu.edu.cn/news/%E7%A5%9D%E8%B4%BA%E8%AE%A1%E4%BF%A1%E9%99%A2%E5%AD%A6%E7%94%9F%E5%9C%A8%E5%9B%BD%E9%99%85%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B%E4%BA%9A%E6%B4%B2%E5%8C%BA%E5%9F%9F%E8%B5%9B%EF%BC%88%E6%B2%88%E9%98%B3%E7%AB%99%EF%BC%89%E4%B8%AD%E5%86%8D%E5%88%9B%E4%BD%B3%E7%BB%A9">
+                <h5 class="inner two"><a href=""><a href="getarticle.jsp?article_id=1589965608799">
                     祝贺计信院学生在国际大学生程序设计竞赛亚洲区域赛（沈阳站）中再创佳绩
                 </a></h5>
                 <div class="td-post-date two">
@@ -115,7 +115,7 @@
 
             </div>
             <div class="col-md-9 item-details">
-                <h5 class="inner two"><a href="http://jxycx.hhu.edu.cn/news/%E6%81%AD%E5%96%9C%E8%AE%A1%E4%BF%A1%E5%AD%A6%E5%AD%90%E5%9C%A82019%20CCF%20CCSP%E6%80%BB%E5%86%B3%E8%B5%9B%E4%B8%AD%E8%8E%B7%E4%BD%B3%E7%BB%A9">
+                <h5 class="inner two"><a href="http://localhost:2562/JSP_IP_war_exploded/getarticle.jsp?article_id=1589966630316">
                     恭喜计信学子在2019 CCF CCSP总决赛中获佳绩
                 </a></h5>
                 <div class="td-post-date two">
