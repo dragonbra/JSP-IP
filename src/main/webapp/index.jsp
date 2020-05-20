@@ -37,7 +37,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <script src="js/ajax1.js"></script>
-<script src="js/jquery-3.1.1.js"></script>
 <div class="header" id="home">
     <div class="content white">
         <nav class="navbar navbar-default" role="navigation">
