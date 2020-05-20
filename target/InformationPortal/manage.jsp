@@ -25,13 +25,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="css/bootstrap-3.1.1.min.css" rel="stylesheet" type="text/css">
     <!-- Custom Theme files -->
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel='stylesheet' type='text/css' />
     <script src="js/jquery.min.js"> </script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
     <!--/script-->
     <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -120,23 +120,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <form action="ModifyServlet" method="post">
         <div class="login-input-box">
             <span class="icon icon-user"></span>
-            <input type="text" value="<%=acc.getName()%>" disabled="disabled" />
+            <input style="width:360px;" type="text" value="<%=acc.getName()%>" disabled="disabled" />
         </div>
         <div class="login-input-box">
             <span class="icon icon-mail"></span>
-            <input type="text" name="email" value="<%=acc.getEmail()%>"
+            <input style="width:360px;" type="text" name="email" value="<%=acc.getEmail()%>"
                    placeholder="电子邮箱">
         </div>
         <div class="login-input-box">
             <span class="icon icon-password"></span>
-            <input type="password" name="Password" value="<%=request.getParameter("Password")==null?"":request.getParameter("Password")%>"
+            <input style="width:360px;" type="password" name="Password" value="<%=request.getParameter("Password")==null?"":request.getParameter("Password")%>"
                    placeholder="密码">
         </div>
         <div class="login-input-box">
             <span class="icon icon-password"></span>
-            <input type="password" placeholder="确认密码">
+            <input style="width:360px;" type="password" placeholder="确认密码">
         </div>
-        <textarea name="profile" placeholder="个人信息"><%=acc.getInfo()%></textarea>
+        <textarea name="profile" placeholder="个人信息" style="border:1px solid #dcdcdc;border-radius:5px;
+                    margin: 18px;width: 360px;height: 200px;padding: 10px;resize: none;"
+                  ><%=acc.getInfo()%>
+        </textarea>
         <input type="hidden" name="aim" value="">
         <div class="login-button-box">
             <button

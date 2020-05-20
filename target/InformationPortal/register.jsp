@@ -143,26 +143,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <form action="RegisterServlet" method="post">
         <div class="login-input-box">
             <span class="icon icon-user"></span>
-            <input type="text" type="text" name="Account" value="<%=request.getParameter("Account")==null?"":request.getParameter("Account")%>"
+            <input style="width:360px;" type="text" type="text" name="Account" value="<%=request.getParameter("Account")==null?"":request.getParameter("Account")%>"
                    placeholder="请输入用户名">
         </div>
         <div class="login-input-box">
             <span class="icon icon-mail"></span>
-            <input type="text" name="Email" value="<%=request.getParameter("Email")==null?"":request.getParameter("Email")%>"
+            <input style="width:360px;" type="text" name="Email" value="<%=request.getParameter("Email")==null?"":request.getParameter("Email")%>"
                    placeholder="请输入邮箱">
         </div>
         <div class="login-input-box">
             <span class="icon icon-password"></span>
-            <input type="password" name="Password" value="<%=request.getParameter("Password")==null?"":request.getParameter("Password")%>"
+            <input style="width:360px;" type="password" name="Password" value="<%=request.getParameter("Password")==null?"":request.getParameter("Password")%>"
                    placeholder="请输入密码">
         </div>
         <div class="login-input-box">
             <span class="icon icon-password"></span>
-            <input type="password" placeholder="请再次输入密码">
+            <input style="width:360px;" type="password" placeholder="请再次输入密码">
         </div>
         <div class="captcha" >
             <span class="icon "></span>
-            <input input type="text" name="CAPTCHA">
+            <input style="width:145px;" input type="text" name="CAPTCHA">
             <img id="verify">
             <input type="button" value="看不清? 换一张" id="btn">
         </div>

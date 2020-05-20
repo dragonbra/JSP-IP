@@ -122,23 +122,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <form action="LoginServlet" method="post">
         <div class="login-input-box">
             <span class="icon icon-user"></span>
-            <input  type="text" name="Account" value="<%= username%>"
-
-                    placeholder="请输入用户名"
-
-            >
+            <input style="width:360px;" type="text" name="Account" value="<%= username%>"
+                    placeholder="请输入用户名">
         </div>
+
         <div class="login-input-box">
             <span class="icon icon-password"></span>
-
-            <input  type="password" name="Password"
-
-                    placeholder="请输入密码"
-            >
+            <input style="width:360px;" type="password" name="Password"
+                    placeholder="请输入密码">
         </div>
+
         <div class="captcha" >
             <span class="icon "></span>
-            <input input type="text" name="CAPTCHA">
+            <input style="width:145px;" input type="text" name="CAPTCHA">
             <img id="verify">
             <input type="button" value="看不清? 换一张" id="btn">
         </div>
