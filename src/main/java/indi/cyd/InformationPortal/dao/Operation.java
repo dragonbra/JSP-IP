@@ -12,15 +12,17 @@ public class Operation {
 
         Connection conn = DataInformation.getConn();
         int i = 0;
-        String sql = "insert into account (name,id,password,permissions,email) values(?,?,?,?,?)";
+        String sql = "insert into account (name,id,password,permissions,email,info,status) values(?,?,?,?,?,?,?)";
         PreparedStatement pstmt;
         try {
             pstmt = (PreparedStatement) conn.prepareStatement(sql);
             pstmt.setString(1, account.getName());
             pstmt.setLong(2, account.getId());
             pstmt.setString(3, account.getPassword());
-            pstmt.setLong(4, account.getPermission());
+            pstmt.setLong(4, account.getPermissions());
             pstmt.setString(5, account.getEmail());
+            pstmt.setString(6, account.getInfo());
+            pstmt.setString(7, account.getStatus());
             i = pstmt.executeUpdate();
             pstmt.close();
 
@@ -56,15 +58,17 @@ public class Operation {
     public static int updateAccount(Account account) {
         Connection conn = DataInformation.getConn();
         int i = 0;
-        String sql = "update account set name = ? , password = ?,permissions = ?,email = ? where name= ? ";
+        String sql = "update account set name = ? , password = ?,permissions = ?,email = ? ,info = ? ,status = ? where name= ? ";
         PreparedStatement pstmt;
         try {
             pstmt = (PreparedStatement) conn.prepareStatement(sql);
             pstmt.setString(1, account.getName());
             pstmt.setString(2, account.getPassword());
-            pstmt.setLong(3, account.getPermission());
+            pstmt.setLong(3, account.getPermissions());
             pstmt.setString(4, account.getEmail());
-            pstmt.setString(5, account.getName());
+            pstmt.setString(5, account.getInfo());
+            pstmt.setString(6, account.getStatus());
+            pstmt.setString(7, account.getName());
             i = pstmt.executeUpdate();
             pstmt.close();
 
@@ -103,7 +107,7 @@ public class Operation {
         PreparedStatement pstmt;
         long id = -1;
         String password = "";
-        int permission = 0;
+        int permissions = 0;
         String email = "";
         String info = "";
         String status = "";
@@ -114,14 +118,16 @@ public class Operation {
             while (rs.next()) {
                 id = rs.getLong("id");
                 password = rs.getString("password");
-                permission = Integer.valueOf(rs.getString("permissions"));
+                permissions = Integer.valueOf(rs.getString("permissions"));
                 email = rs.getString("email");
+                info = rs.getString("info");
+                status = rs.getString("status");
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-        Account ans = new Account(name, id, password, permission, email );
+        Account ans = new Account(name, id, password, permissions, email, info, status);
         return ans;
     }
 
