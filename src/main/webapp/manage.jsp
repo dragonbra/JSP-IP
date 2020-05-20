@@ -159,16 +159,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         if (acc.getPermissions() >= 1) {
     %>
     <a style="color: black" href="ekeditor.jsp?gx=1">增加文章</a>
+    <input type="button" value="增加文章" οnclick="location.href='ekeditor.jsp?gx=1'">
     <%
         }
         if (acc.getPermissions() >= 2) {
     %>
     <a style="color: black" href="control.jsp">设置账户</a>
+    <input type="button" value="设置账户" οnclick="location.href='control.jsp'">
     <%
         }
         if (acc.getPermissions() >= 3) {
     %>
     <a style="color: black" href="addpartof.jsp">设置模块</a>
+    <input type="button" value="设置模块" οnclick="location.href='addpartof.jsp'">
     <%
             }
         }

@@ -31,7 +31,7 @@ public class DataInformation {
             System.out.println("创建Partof表失败");
             return;
         }
-        Operation.insertAccount(new Account("root",0, "123456", 100, ""));
+        Operation.insertAccount(new Account("root",0, "123456", 10, "root@cyd.indi"));
     }
     public static Connection getConn(){
         try {
@@ -52,7 +52,7 @@ public class DataInformation {
         //Element sql= ConfigProvider.getConfig("SQL");
         // 注册 JDBC 驱动
         Class.forName("com.mysql.cj.jdbc.Driver");
-        DB_URL="jdbc:mysql://localhost:3306/cyd1?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true";
+        DB_URL="jdbc:mysql://localhost:3306/cyd?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true";
         USER="root";
         PASS="123456";
         return DriverManager.getConnection(DB_URL,USER,PASS);

@@ -58,18 +58,18 @@ body{
 }
 
 .login-input-box input:hover{
-    border: 1px solid #ff7d0a;
+    border: 1px solid #1bbcfc;
 }
 
 .login-input-box input:after{
-    border: 1px solid #ff7d0a;
+    border: 1px solid #1bbcfc;
 }
 
 .login-input-box .icon{
     width: 24px;
     height: 24px;
     margin: 6px 4px 6px 24px;
-    background-color: #ff7d0a;
+    background-color: #1bbcfc;
     display: inline-block;
     position: absolute;
     border-right: 1px solid #dcdcdc;
@@ -105,23 +105,23 @@ body{
 }
 
 .login-button-box button{
-    background-color: #ff7d0a;
+    background-color: #1bbcfc;
     text-align: center;
     color: #ffffff;
     font-size: 16px;
     width: 380px;
     height: 40px;
     margin-left: 10px;
-    border: 1px solid #ff7d0a;
+    border: 1px solid #1bbcfc;
     border-radius: 4px;
 }
 
 .login-button-box button:hover{
-    background-color: #ee7204;
+    background-color: #0a62ff;
 }
 
 .login-button-box button:active{
-    background-color: #ee7204;
+    background-color: #0a62ff;
 }
 
 .logon-box{
@@ -138,11 +138,11 @@ body{
 }
 
 .logon-box a:hover{
-    color: #ff7d0a;
+    color: #1bbcfc;
 }
 
 .logon-box a:active{
-    color: #ee7204;
+    color: #0a62ff;
 }
 
 
