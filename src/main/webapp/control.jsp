@@ -59,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <ul class="nav navbar-nav">
                         <li><a href="index.jsp">首页</a></li>
                         <li><a href="exp_teach.jsp">实验教学</a></li>
-                        <li><a href="man_mode.jsp">管理模式</a></li>
+                        <li><a href="man_mode.jsp">中心概况</a></li>
                         <li><a href="exp_envir.jsp">设备环境</a></li>
                         <li><a href="award_show.jsp">成果展示</a></li>
                         <li><a href="exp_team.jsp">实验队伍</a></li>
@@ -101,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <div id="content" style="height: auto;margin-bottom: 30px;">
-    <img src="images/timg.jpg" width="60px" style="margin-left: 170px;margin-bottom: 10px">
+    <img src="images/manager.jpg" width="60px" style="margin-left: 170px;margin-bottom: 10px">
     <div style="width: 80%;align-content: center;margin: auto">
 
         <%

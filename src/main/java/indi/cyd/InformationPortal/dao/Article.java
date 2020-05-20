@@ -9,6 +9,10 @@ public class Article {
     private String partof;
     private String rootpartof;
 
+    public Article() {
+        rootpartof = title = author = content = partof = "";
+    }
+
     public Article(String title, String author, String content, long mydate, String partof, String rootpartof, long id) {
         this.author = author;
         this.content = content;

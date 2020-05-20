@@ -117,6 +117,7 @@ public class ModifyServlet extends HttpServlet {
         Operation.updateAccount(acc);
         //     out.print("<script>alert('"+error+"'); window.location='index.jsp' </script>");
         response.sendRedirect("./index.jsp");
+        // request.getRequestDispatcher("./control.jsp?").forward(request, response);
     }
 
 }

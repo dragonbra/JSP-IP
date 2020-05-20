@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <ul class="nav navbar-nav">
                         <li><a href="index.jsp">首页</a></li>
                         <li><a href="exp_teach.jsp">实验教学</a></li>
-                        <li><a href="man_mode.jsp">管理模式</a></li>
+                        <li><a href="man_mode.jsp">中心概况</a></li>
                         <li><a href="exp_envir.jsp">设备环境</a></li>
                         <li><a href="award_show.jsp">成果展示</a></li>
                         <li><a href="exp_team.jsp">实验队伍</a></li>
@@ -158,17 +158,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <%
         if (acc.getPermissions() >= 1) {
     %>
-    <a style="color: black" href="ekeditor.jsp?gx=1" class="button">增加文章</a>
+    <a style="color: black" href="editor.jsp?gx=1" class="button">新增文章</a>
     <%
         }
         if (acc.getPermissions() >= 2) {
     %>
-    <a style="color: black" href="control.jsp" class="button">设置账户</a>
+    <a style="color: black" href="addpartof.jsp" class="button">管理模块</a>
     <%
         }
         if (acc.getPermissions() >= 3) {
     %>
-    <a style="color: black" href="addpartof.jsp" class="button">设置模块</a>
+    <a style="color: black" href="control.jsp" class="button">设置账户</a>
     <%
             }
         }
