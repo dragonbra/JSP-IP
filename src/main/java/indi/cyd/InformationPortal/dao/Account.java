@@ -1,65 +1,100 @@
 package indi.cyd.InformationPortal.dao;
 
 public class Account {
-    private String name;  //用户名
-    private long id;  //用户id
-    private String password; //密码
-    private String email; //用户邮箱
-    private int permission; //权限 零为管理员，非零为非管理员
-    public Account(String name,long id,String password,int permission,String email) {
-        this.email = email;
-        this.id = id;
-        this.name = name;
-        this.permission = permission;
-        this.password = password;
+    private String name;
+    private long id;
+    private String password;
+    //第0位代表是否有后台管理权限
+    private int permissions;
+    private String email;
+    private String info="";
+    private String status="";
+    public Account(String name,long id,String password,int permissions,String email)
+    {
+        this.name=name;
+        this.id=id;
+        this.password=password;
+        this.permissions=permissions;
+        this.email=email;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public Account(String name,long id,String password,int permissions,String email,String info,String status)
+    {
+        this.name=name;
+        this.id=id;
+        this.password=password;
+        this.permissions=permissions;
+        this.email=email;
+        this.info=info;
+        this.status=status;
     }
-
-    public long getId() {
-        return id;
+    public String toString()
+    {
+        String s="name: "+name;
+        s+="\n";
+        s+="id: "+id;
+        s+="\n";
+        s+="password: " + password;
+        s+="\n";
+        s+= "permissions: "+permissions;
+        s+="\n";
+        s+="email: " +email;
+        s+="\n";
+        s+="info: "+ info;
+        s+="\n";
+        s+="status: "+ status;
+        s+="\n";
+        return  s;
     }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public String getName() {
+        return name;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getPermissions() {
+        return permissions;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setPermission(int permission) {
-        this.permission = permission;
-    }
-
-    public int getPermission() {
-        return permission;
+    public long getId() {
+        return id;
     }
 
     public String getInfo() {
-        String ans = "";
-        ans += "用户名为" + getName() + "\n";
-        ans += "用户id为" + String.valueOf(getId()) + "\n";
-        ans += "用户邮箱为" + getEmail() + "\n";
-        ans += "是否为管理员？" + getPermission() == 0 + "\n";
-        return ans;
+        return info;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
 
-    public String getPassword() {
-        return password;
+    public void setPermissions(int permissions) {
+        this.permissions = permissions;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }
