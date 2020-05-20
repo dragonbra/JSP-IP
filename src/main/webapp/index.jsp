@@ -37,7 +37,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <script src="js/ajax1.js"></script>
-<script src="js/jquery-3.1.1.js"></script>
 <div class="header" id="home">
     <div class="content white">
         <nav class="navbar navbar-default" role="navigation">
@@ -229,16 +228,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="course_demo1">
                             <ul id="flexiselDemo1">
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                    <a href="exp_envir.jsp"><img src="images/i1.jpg" alt="" /></a>
                                 </li>
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                    <a href="exp_envir.jsp"><img src="images/i2.jpg" alt="" /></a>
                                 </li>
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                    <a href="exp_envir.jsp"><img src="images/i3.jpg" alt="" /></a>
                                 </li>
                                 <li>
-                                    <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="" /></a>
+                                    <a href="exp_envir.jsp"><img src="images/i2.jpg" alt="" /></a>
                                 </li>
                             </ul>
                         </div>
@@ -283,24 +282,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <h3 class="tittle bottom"><i class="glyphicon glyphicon-globe"></i>通知公告</h3>
             <div class="grid">
                 <div class="col-md-4 m-b">
-                    <a href="exp_envir.jsp">
-                        </figure class="effect-layla">
-                    </a>
-                    <img src="images/timg.jpg" alt="img25"/>
-                    <figcaption>
-                        <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        <a href="#">更多</a>
-                    </figcaption>
+                    <figure class="effect-layla">
+                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
+                        <figcaption>
+                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
+                        </figcaption>
                     </figure>
                     <div class="m-b-text">
                         <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
+                        <p>阿巴阿巴.</p>
+                        <a class="read" href="exp_envir.jsp"> 更多</a>
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
-                        <a href="exp_envir.jsp">	<img src="images/timg.jpg" alt="img25"/></a>
+                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
                         <figcaption>
                             <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
                         </figcaption>
