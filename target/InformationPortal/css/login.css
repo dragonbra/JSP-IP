@@ -186,3 +186,22 @@ body{
     padding: 8px 12px;
     text-decoration: none;
 }
+
+button{
+    background-color: #1bbcfc;
+    color: #ffffff;
+    font-size: 16px;
+    width: 340px;
+    height: 40px;
+    margin-left: 18px;
+    border: 1px solid #0a62ff;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #0a62ff;
+}
+
+button:active{
+    background-color: #0a62ff;
+}

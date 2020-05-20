@@ -9,7 +9,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>管理模式</title>
+    <title>中心概况</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Politics Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -56,7 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <ul class="nav navbar-nav">
                         <li><a href="index.jsp">首页</a></li>
                         <li><a href="exp_teach.jsp">实验教学</a></li>
-                        <li class="active"><a href="man_mode.jsp">管理模式</a></li>
+                        <li class="active"><a href="man_mode.jsp">中心概况</a></li>
                         <li><a href="exp_envir.jsp">设备环境</a></li>
                         <li><a href="award_show.jsp">成果展示</a></li>
                         <li><a href="exp_team.jsp">实验队伍</a></li>
@@ -102,7 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- contact -->
 <div class="contact">
     <div class="container">
-        <h3>管理模式</h3>
+        <h3>中心概况</h3>
         <div class="contact-bottom">
             	<iframe
                         src="https://map.baidu.com/poi/%E6%B2%B3%E6%B5%B7%E5%A4%A7%E5%AD%A6(%E6%B1%9F%E5%AE%81%E6%A0%A1%E5%8C%BA)/@13224056.54779473,3731682.359528433,13.3z?uid=a404432faa3c773e3be4a6b5&ugc_type=3&ugc_ver=1&device_ratio=2&compat=1&querytype=detailConInfo&da_src=shareurl"
