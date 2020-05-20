@@ -51,6 +51,15 @@ body{
     padding-left: 42px;
 }
 
+#name{
+    width: 297px;
+    height: 32px;
+    margin-left: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding-left: 42px;
+}
+
 .login-input-box input:hover{
     border: 1px solid #ff7d0a;
 }
