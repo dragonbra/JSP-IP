@@ -159,9 +159,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         河海大学实验中心依托河海大学的教学、科研资源进行建设，由土工合成材料检测室、地基处理与工程结构检测室、工程材料检测室、岩土工程参数检测室、海洋动力参数检测室及质检办公室组成。
                     </p>
                     <p>
-                        河海大学实验中心于1995年经国家质量技术监督局计量认证考核，满足计量测试能力和可靠性的要求，颁发了计量认证合格证书，并在2000年和2003年分别通过水利部监督评审和复查换证评审。2005年新开展检测项目1个，覆盖21个参数，在18个检测项目中新增参数55个，2006年、2009年和2012年分别通过水利部组织的复查换证评审。中心的主要任务是贯彻执行国家有关工程（产品）质量检测的政策、方针、法规条例，可承担18类检测项目256个参数的检测工作并向社会提供公正数据。其中包括土工合成材料的物理、力学性能检测；动载、静载条件下的桩基承载力、桩身应力、完整性检测；各类水利、土木、电力工程的抗震试验及极限承载力检测；施工质量检测、建筑物质量检测和安全评价，新型建筑材料、新结构的检测；水泥、钢材、砂石、混凝土等各类工程材料的物理、力学性能检测；岩土体基本物理力学性质的试验及岩土体变形、强度特性的检测；海洋动力性能检测等方面的试验和检测任务。中心的检测工作严格按中心管理体系文件执行。
-                    </p>
-                    <p>
                         近年来，河海大学实验中心面向全国水利、建筑、交通以及环境各行业承接检测项目，积极参与土工合成材料、建筑材料等新产品的研究与开发，在三峡、南水北调、小浪底、长江口航道治理、淮河入海水道、二滩、溪洛渡、龙滩等重大水利、水电工程项目；南京地铁、南京长江二桥、沪宁高速公路、广东汕汾高速公路、润扬长江大桥等重大交通工程建设项目中承接科研及检测任务，为国家建设作出了应有的贡献。
                     </p>
                 </div>
@@ -269,41 +266,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="grid">
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
-                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
+                        <a href="getarticle.jsp?article_id=1589983284783"><img src="images/hhuxh.jpg" alt="img25"/></a>
                         <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
+                            <h4>网站试运行<span>欢迎使用</span></h4>
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp"> 更多</a>
+                        <a href="getarticle.jsp?article_id=1589983284783" class="wd">网站试运行</a>
+                        <p>欢迎使用</p>
+                        <a class="read" href="getarticle.jsp?article_id=1589983284783"> 更多</a>
+                    </div>
+                </div>
+                <div class="col-md-4 m-b">
+                    <figure class="effect-layla">
+                        <a href="exp_envir.jsp"><img src="images/awards/hhugate.png" alt="img25"/></a>
+                        <figcaption>
+                            <h4>河海大学实验中心<span>中心简介</span></h4>
+                        </figcaption>
+                    </figure>
+                    <div class="m-b-text">
+                        <a href="getarticle.jsp?article_id=1589983727731" class="wd">河海大学实验中心</a>
+                        <p>中心简介</p>
+                        <a class="read" href="getarticle.jsp?article_id=1589983727731">更多</a>
                     </div>
                 </div>
                 <div class="col-md-4 m-b">
                     <figure class="effect-layla">
                         <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
                         <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
+                            <h4>河海大学天梯赛选拔赛暨ACM联训<span>选拔赛通知</span></h4>
                         </figcaption>
                     </figure>
                     <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp">更多</a>
-                    </div>
-                </div>
-                <div class="col-md-4 m-b">
-                    <figure class="effect-layla">
-                        <a href="exp_envir.jsp"><img src="images/timg.jpg" alt="img25"/></a>
-                        <figcaption>
-                            <h4>阿巴阿巴<span>阿巴阿巴</span></h4>
-                        </figcaption>
-                    </figure>
-                    <div class="m-b-text">
-                        <a href="exp_envir.jsp" class="wd">阿巴阿巴 </a>
-                        <p>阿巴阿巴.</p>
-                        <a class="read" href="exp_envir.jsp"> 更多</a>
+                        <a href="getarticle.jsp?article_id=1589980483937" class="wd">河海大学天梯赛选拔赛暨ACM联训</a>
+                        <p>选拔赛通知</p>
+                        <a class="read" href="getarticle.jsp?article_id=1589980483937"> 更多</a>
                     </div>
                 </div>
                 <div class="clearfix"></div>

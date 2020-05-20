@@ -107,7 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h3>队伍简介</h3>
                     <img src="images/exp_team/i1.jpeg" alt=" " class="img-responsive" />
                     <p>
-                        <br>河海大学勤学楼4104号实验室由一群贼爱吃KFC，打LOL和偶尔CF以及参加acm比赛或补题度日的好学生。
+                        <br>河海大学勤学楼4114号实验室由一群贼爱吃KFC，打LOL和偶尔CF以及参加acm比赛或补题度日的好学生。
                         <br><br>（图为17级同学参加JSCPC获奖现场）
                     </p>
                 </div>
